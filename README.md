@@ -61,7 +61,7 @@ PS: keep in mind that you have to be able to connect on the source and target da
 ### 4th - How to use sqldata from SQLines
 
 ```
-./sqldata -sd=oracle,CEP/teste123@XE -td=pg,cep/Teste123@172.16.122.164,cep -t=*.* -ss=6 -out=/home/postgres -log=migration_cep.log
+./sqldata -sd=oracle,CEP/teste123@XE -td=pg,cep/Teste123@172.16.122.164,cep -t=*.* -ss=6 -out=/home/postgres -log=migration_cep.log -pg_client_encoding=UTF8
 ```
 
 PS.: Always keep in mind to create the schema under the same name on PostgreSQL side as it is on Oracle side too, they have to match to import properly.
