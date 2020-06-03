@@ -1,7 +1,7 @@
 # ansible-oracle-to-postgresql-migration
 Ansible routine to deploy SQLines tool to assist migration from Oracle to PostgreSQL on CentOS / Red Hat Linux distros
 
-### SQLines will be installed and used on a intermediate machine to be a bridge between Oracle to MariaDB.
+### SQLines will be installed and used on a intermediate machine to be a bridge between Oracle to PostgreSQL.
 
 ## Proposed Scenario
 
